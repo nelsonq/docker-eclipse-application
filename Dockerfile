@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 # Url of eclipse for downloading
-ARG ECLIPSE_URL=https://eclipse.mirror.rafal.ca/technology/epp/downloads/release/2021-09/R/eclipse-java-2021-09-R-linux-gtk-x86_64.tar.gz
+ARG ECLIPSE_URL=https://eclipse.mirror.rafal.ca/technology/epp/downloads/release/2022-12/R/eclipse-java-2022-12-R-linux-gtk-x86_64.tar.gz
 
 RUN apt-get update && \
     apt-get install -y openjdk-8-jdk wget && \
